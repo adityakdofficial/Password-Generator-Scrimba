@@ -1,0 +1,82 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -o-font-smoothing: antialiased;
+}
+
+body {
+  background: #1c1c1c;
+  color: white;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+h1,
+p {
+  margin: 0rem;
+  font-weight: 400;
+}
+
+p {
+  margin-top: 0.5rem;
+}
+
+button {
+  padding: 0.75rem 0.875rem;
+  margin-top: 1.125rem;
+  border: none;
+  font-weight: 500;
+  border-radius: 0.35rem;
+  outline: none;
+  font-size: 1rem;
+  background-color: #10b981;
+  color: white;
+}
+
+.pass_component {
+  padding: 2.5rem;
+  background-color: #1f2937;
+  border-radius: 0.35rem;
+  width: 100%;
+  max-width: 30rem;
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.pass_top-wrapper {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.pass_bottom-wrapper {
+  display: flex-box;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pass_firstPass,
+.pass_secondPass {
+  padding: 0.75rem 0.875rem;
+  display: block;
+  text-align: center;
+  width: auto;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 0.35rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #55f991;
+  margin-bottom: 0.75rem;
+  min-height: 1.25rem;
+}

@@ -1,15 +1,27 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-</head>
-<body>
-
-  <h1>Hello World</h1>
-
-
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <div class="pass_component">
+        <div class="pass_top-wrapper">
+          <h1>Generate a Random Password</h1>
+          <p>Never use an insecure password again</p>
+          <button class="pass_button" onClick="generatePasswords()">
+            Generate Passwords
+          </button>
+        </div>
+        <div class="pass_bottom-wrapper">
+          <div id="pass1" onClick="copy1()" class="pass_firstPass"></div>
+          <div id="pass2" onClick="copy2()" class="pass_secondPass"></div>
+        </div>
+      </div>
+    </div>
+    <script src="/index.js"></script>
+  </body>
 </html>
